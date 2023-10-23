@@ -1,2 +1,2 @@
 # Javascript
-Coding repo for javascript and timely practice 
+Coding repo for javascript notes and practice
