@@ -1,8 +1,8 @@
 //strings
 const name= "rio"
 const repoCount = 4
-//console.log(name + repoCount)
-//console.log('hello my name is ${name} and my repo count is ${repoCount}')
+console.log(name + repoCount)
+console.log(`hello my name is ${name} and my repo count is ${repoCount}`)
 const gameName = new String("hola-espanyola")
 
 console.log(gameName[2]);
