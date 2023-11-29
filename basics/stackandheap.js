@@ -1,5 +1,5 @@
 /*
-data types are callsified in two types depending on how they are stored in memory(mainly by value or reference)
+data types are classified in two types depending on how they are stored in memory(mainly by value or reference)
 
 primitive data types
 String
