@@ -35,6 +35,48 @@ console.log(jsUser.greeting());
 } */
 // console.log(jsUser.greeting2());
 
+const sym= Symbol("key1");
+
+const user={
+  name:"rio",
+  age:10000,
+  [sym]:"secret",
+  location: "gurugram",
+  isLoggedin: false,
+  logInDays: ["monday","wednesday","saturday"]
+}
+
+//console.log(user.name);
+//console.log(user["age"]);
+//console.log(user["logInDays"]);
+//console.log(user[sym]);
+
+//console.log(typeof user[sym]);
+//console.log(user);
+
+user.logInDays.push("Sunday");
+//console.log(user);
+
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3:"c", 4: "d"}
+
+const obj3= Object.assign({},obj1,obj2);
+const obj4= {...obj1,...obj2}
+//console.log(obj3);
+//console.log(obj4);
+
+//console.log(Object.keys(user));
+//console.log(Object.entries(user));
+//console.log(Object.getOwnPropertyNames(user));
+
+//console.log(Object.hasOwnProperty("name"));
+
+const{logInDays}=user;
+//console.log(logInDays);
+
+const{isLoggedin: login, location: area} = user;
+//console.log(login,area);
+
 
 
 
