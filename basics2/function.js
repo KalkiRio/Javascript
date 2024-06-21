@@ -65,3 +65,22 @@ function secondvalue(Arr){
 //console.log(secondvalue(myArr));
 //console.log(secondvalue([3,5,700]))
 
+//immediately invoked function expression(iife) iife is used to solve global pollution and immediate execution of a function
+
+(function hello(){
+  console.log("hello world");
+})();
+
+//arrow function in iife
+
+(()=>{
+  console.log("hello");
+})();
+
+//iife arrow with parameter
+
+((name)=>{
+  console.log("hello"+name);
+})("Rio")
+
+
