@@ -1,0 +1,60 @@
+//for in loop
+
+const myobj = {
+  js:'javascript',
+  cpp:'c++',
+  rb:'ruby',
+  swift:'swift by apple'
+}
+
+for(const key in myobj){
+  console.log(key);
+  console.log(myobj[key]);
+}
+
+const programming=["js","cpp","rb"];
+
+for(const index in programming){
+  console.log(index);
+  console.log(programming[index]);
+}
+
+//for each loop
+
+const myarr=[1,2,3,4,5,6];
+myarr.forEach( function (val){
+  console.log(val);
+})
+
+myarr.forEach((val)=>{
+  console.log(val);
+})
+
+function print(item){
+  console.log(item);
+}
+myarr.forEach(print)
+
+
+myarr.forEach((item,index,arr)=>{
+  console.log(item,index,arr);
+})
+
+const coding=[
+  {
+    language:"javascript",
+    langfile:"js"
+  },
+  {
+    language:"java",
+    langfile:"jn"
+  },
+  {
+    language:"c++",
+    langfile:"cpp"
+  }
+];
+
+coding.forEach((item)=>{
+  console.log(item.language);
+})
